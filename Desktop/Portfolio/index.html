@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="background" id="background">
+                <img id="imgBackground" src="/asset/ProfileImg.jpg">
+            </div>
+            <div class="content">
+                <h2>Dragisa Draskovic</h2>
+                <p>
+                    Junior React developer
+                </p>
+                <p>Technology:</p>
+                <ul class="chips">
+                    <li class="chip" onclick="location.href='/pages/react.html';">React.js</li>
+                    <li class="chip" onclick="location.href='/pages/spring.html';">Spring</li>
+                    <li class="chip" onclick="location.href='/pages/postgreSQL.html';">PostgreSQL</li>
+                </ul>
+                <div class="educationContainer">
+                    <h2>Education</h2>
+                    <p>Faculty of Technical Sciences, department of Industrial Engineering and Engineering Management</p>
+                </div>
+                <div class="learnMoreContainer" id="showMoreContainer">
+                    <h2 class="hTagInternships"> Internships</h2>
+                    <p> ITENGINE
+                    </p>
+                    <p>
+                        LEVI9
+                    </p>
+                    <p>
+                        VALCON
+                    </p>
+                </div>
+                <div class="otherSkillsAndTools" id="showOtherContainer">
+                    <h2 class="hTagOtherSkills">Other skills and tools</h2>
+                    <p>
+                        GIT, Agile, MongoDB, Liquidbase, Trello, Node.JS, Relational database...
+                    </p>
+                    <h2 class="hTagMyLinks">My Links</h2>
+                    <a href="https://github.com/DragisaDraskovic?tab=repositories" class="links">My GitHub repos</a>
+                    <p></p>
+                    <a href="https://www.linkedin.com/in/dragisa-draskovic-18b404134/" class="links">My Linkedin</a>
+                    <p></p>
+                    <p class="links">My E-mail: dragisadraskovic2@gmail.com</p>
+                </div>
+                <div class="action-buttons">
+                    <a class="secondary" title="Learn More" id="learnLessButton" onclick="showMore()">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
