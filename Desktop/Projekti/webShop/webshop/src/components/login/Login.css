@@ -1,0 +1,91 @@
+.loginContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(152, 150, 150, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.pageContainer {
+    width: 25%;
+    height: 60%;
+    border: 2px solid wheat;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.containerForXButton {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.closeModalButton {
+    margin: 15px 15px 0 0;
+}
+
+.loginForm {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputLogin {
+    width: 70%;
+    height: 3vh;
+    margin: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: wheat;
+    border-width: 2px;
+    background-color:  rgba(130, 128, 128, 0.1);
+    color: wheat;
+}
+
+.inputLogin::placeholder {
+    text-align: center;
+}
+
+.loginSubmitButton {
+    width: 30%;
+    height: 3vh;
+    border-radius: 20px;
+    background-color: wheat;
+    margin: 10px;
+}
+
+.loginTItle {
+    color: wheat;
+    margin: 0 0 35px 0;
+}
+
+.error_message_for_credentials {
+    color: wheat;
+    align-self:center ;
+    text-align: center;
+}

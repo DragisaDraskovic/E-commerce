@@ -1,0 +1,59 @@
+.cartContainer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showingConteiner {
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    background-color: yellow;
+    display: flex;
+}
+
+.firstShowingConteiner {
+    background-color: green;
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.secondShowingConteiner {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hederSecondContainer {
+    background-color: brown;
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+}
+
+.fixPositionSecondContainer {
+    background-color: blue;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.firstFixPositionContainer {
+    width: 50%;
+    height: 100%;
+    background-color: purple;
+    border: 1px solid black;
+}
+
+.secondFixPositinoContainer {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid black;
+}

@@ -1,0 +1,38 @@
+.homeContainer {
+    background-color: #80808012;
+    min-width: 750px;
+}
+
+.firstImgContainer {
+    position: initial;
+}
+
+.headsetImg {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 98%;
+    height: auto;
+    margin: 0 auto 10px auto;
+}
+
+.cardContainer {
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    height: 300px;
+    margin: 20px 0 20px 0;
+    justify-content: space-between;
+    margin: 40px auto 0 auto;
+}
+
+.gridCardImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.gridItem {
+    width: 20%;
+    height: 100%;
+}

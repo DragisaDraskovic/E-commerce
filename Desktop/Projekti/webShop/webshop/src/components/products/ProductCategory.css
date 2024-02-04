@@ -1,0 +1,50 @@
+.shopCardsContainer {
+    width: 100%;
+    height: 95vh;
+    min-width: 750px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.shopCardContainer {
+    margin-top: 50px;
+    width: 250px;
+    height: 300px;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+.shopDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopCardImage {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.shopCardContainer p {
+    margin: 0;
+}
+
+.showMoreButton {
+    width: 80px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: wheat;
+    color: #9a9a9a;
+}
+
+.shopCardPrice {
+    font-weight: bold;
+}

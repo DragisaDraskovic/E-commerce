@@ -1,0 +1,34 @@
+.shopHeader {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    min-width: 750px;
+}
+
+.navBarShop {
+    background-color: #80808012;
+    width: 70%;
+    height: 70%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 515px;
+}
+
+.navBarContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 515px;
+}
+
+.linkButtonCategory {
+    margin: 10px;
+    color: #9a9a9a;
+}
